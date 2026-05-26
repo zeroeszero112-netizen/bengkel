@@ -17,6 +17,7 @@ $allowedPages = [
     'notifikasi',
     'pengaturan',
     'template_notifikasi',
+    'riwayat_servis',
 ];
 
 if (!in_array($page, $allowedPages, true)) {
@@ -646,6 +647,7 @@ $pageTitleMap = [
     'notifikasi' => 'Notifikasi WhatsApp',
     'pengaturan' => 'Pengaturan',
     'template_notifikasi' => 'Template Notifikasi WhatsApp',
+    'riwayat_servis' => 'Riwayat Servis',
 ];
 
 $pageTitle = $pageTitleMap[$page] ?? 'Akasia Motor Admin';

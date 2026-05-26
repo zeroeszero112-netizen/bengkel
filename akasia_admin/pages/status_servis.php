@@ -212,6 +212,7 @@ function stageTimeValue(array $item, string $stage): string
                                         <form method="post" action="index.php?page=status_servis&stage=diproses">
                                             <input type="hidden" name="action" value="complete_service">
                                             <input type="hidden" name="id" value="<?= (int) $item['id'] ?>">
+                                            <input type="hidden" name="redirect_to" value="index.php?page=status_servis&stage=diproses&q=<?= urlencode($search) ?>">
                                             <div class="row g-3">
                                                 <div class="col-12">
                                                     <label class="form-label">Hasil Servis</label>
@@ -418,6 +419,7 @@ function stageTimeValue(array $item, string $stage): string
                                                 <form method="post" action="index.php?page=status_servis&stage=menunggu_antrean">
                                                     <input type="hidden" name="action" value="start_service">
                                                     <input type="hidden" name="id" value="<?= (int) $item['id'] ?>">
+                                                    <input type="hidden" name="redirect_to" value="index.php?page=status_servis&stage=menunggu_antrean&q=<?= urlencode($search) ?>">
                                                     <div class="mb-3">
                                                         <label class="form-label">Pilih Mekanik</label>
                                                         <select name="mekanik_id" class="form-select" required>

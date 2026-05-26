@@ -45,9 +45,9 @@ $mekanikTersediaStmt = $pdo->query("
 ");
 $mekanikTersediaList = $mekanikTersediaStmt->fetchAll();
 
-// Aktivitas terbaru (perubahan status)
+// Aktivitas terbaru (perubahan status) - link ke riwayat_servis
 $aktivitasStmt = $pdo->query("
-    SELECT r.no_antrian, u.nama AS pelanggan, r.status, r.updated_at
+    SELECT r.no_antrian, u.nama AS pelanggan, r.status, r.updated_at, r.id AS reservasi_id
     FROM reservasi r
     INNER JOIN users u ON u.id = r.user_id
     ORDER BY r.updated_at DESC
@@ -215,13 +215,15 @@ $highlight = $todayStmt->fetch();
                 <?php else: ?>
                     <div class="detail-list">
                         <?php foreach ($aktivitasList as $aktivitas): ?>
-                            <div class="detail-row">
-                                <span>
-                                    <strong class="d-block text-start"><?= htmlspecialchars($aktivitas['no_antrian'] ?? '-') ?> - <?= htmlspecialchars($aktivitas['pelanggan'] ?? '-') ?></strong>
-                                    <small class="text-secondary"><?= formatDateTimeIndonesia($aktivitas['updated_at'] ?? null) ?></small>
-                                </span>
-                                <span class="badge <?= getStatusBadgeClass($aktivitas['status'] ?? '') ?>"><?= htmlspecialchars(getStageMeta($aktivitas['status'] ?? '')['label']) ?></span>
-                            </div>
+                            <a href="index.php?page=riwayat_servis" class="text-decoration-none">
+                                <div class="detail-row">
+                                    <span>
+                                        <strong class="d-block text-start"><?= htmlspecialchars($aktivitas['no_antrian'] ?? '-') ?> - <?= htmlspecialchars($aktivitas['pelanggan'] ?? '-') ?></strong>
+                                        <small class="text-secondary"><?= formatDateTimeIndonesia($aktivitas['updated_at'] ?? null) ?></small>
+                                    </span>
+                                    <span class="badge <?= getStatusBadgeClass($aktivitas['status'] ?? '') ?>"><?= htmlspecialchars(getStageMeta($aktivitas['status'] ?? '')['label']) ?></span>
+                                </div>
+                            </a>
                         <?php endforeach; ?>
                     </div>
                 <?php endif; ?>
