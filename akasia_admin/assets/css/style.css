@@ -11,6 +11,18 @@
     --success-soft: #e9fbf0;
     --warning-soft: #fff5de;
     --danger-soft: #fff0ef;
+    --status-1-bg: #e3f2fd;
+    --status-1-text: #1565c0;
+    --status-2-bg: #e8f5e9;
+    --status-2-text: #2e7d32;
+    --status-3-bg: #fff3e0;
+    --status-3-text: #ef6c00;
+    --status-4-bg: #fce4ec;
+    --status-4-text: #c2185b;
+    --status-5-bg: #f3e5f5;
+    --status-5-text: #7b1fa2;
+    --status-6-bg: #e0f2f1;
+    --status-6-text: #00695c;
 }
 
 * {
@@ -266,6 +278,90 @@ body {
     border: 1px solid var(--border);
     border-radius: 18px;
     background: #fff;
+    transition: 0.2s ease;
+}
+
+.status-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.status-card:nth-child(1) {
+    background: var(--status-1-bg);
+    border-color: var(--status-1-text);
+}
+
+.status-card:nth-child(1) .status-card-label {
+    color: var(--status-1-text);
+}
+
+.status-card:nth-child(1) .status-card-value {
+    color: var(--status-1-text);
+}
+
+.status-card:nth-child(2) {
+    background: var(--status-2-bg);
+    border-color: var(--status-2-text);
+}
+
+.status-card:nth-child(2) .status-card-label {
+    color: var(--status-2-text);
+}
+
+.status-card:nth-child(2) .status-card-value {
+    color: var(--status-2-text);
+}
+
+.status-card:nth-child(3) {
+    background: var(--status-3-bg);
+    border-color: var(--status-3-text);
+}
+
+.status-card:nth-child(3) .status-card-label {
+    color: var(--status-3-text);
+}
+
+.status-card:nth-child(3) .status-card-value {
+    color: var(--status-3-text);
+}
+
+.status-card:nth-child(4) {
+    background: var(--status-4-bg);
+    border-color: var(--status-4-text);
+}
+
+.status-card:nth-child(4) .status-card-label {
+    color: var(--status-4-text);
+}
+
+.status-card:nth-child(4) .status-card-value {
+    color: var(--status-4-text);
+}
+
+.status-card:nth-child(5) {
+    background: var(--status-5-bg);
+    border-color: var(--status-5-text);
+}
+
+.status-card:nth-child(5) .status-card-label {
+    color: var(--status-5-text);
+}
+
+.status-card:nth-child(5) .status-card-value {
+    color: var(--status-5-text);
+}
+
+.status-card:nth-child(6) {
+    background: var(--status-6-bg);
+    border-color: var(--status-6-text);
+}
+
+.status-card:nth-child(6) .status-card-label {
+    color: var(--status-6-text);
+}
+
+.status-card:nth-child(6) .status-card-value {
+    color: var(--status-6-text);
 }
 
 .status-card-label {
