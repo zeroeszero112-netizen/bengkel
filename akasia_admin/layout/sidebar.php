@@ -57,6 +57,10 @@
                         <i class="bi bi-chat-left-text"></i>
                         <span>Template WhatsApp</span>
                     </a>
+                    <a href="index.php?page=riwayat_servis" class="nav-item nav-subitem <?= $currentPage === 'riwayat_servis' ? 'active' : '' ?>">
+                        <i class="bi bi-clock-history"></i>
+                        <span>Riwayat Servis</span>
+                    </a>
                 </div>
             </div>
 
