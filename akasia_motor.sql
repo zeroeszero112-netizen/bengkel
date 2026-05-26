@@ -119,9 +119,9 @@ CREATE TABLE `mekanik` (
 --
 
 INSERT INTO `mekanik` (`id`, `nama`, `no_hp`, `status`, `foto`, `created_at`) VALUES
-(1, 'Ahmad Wijaya', '082111112222', 'tersedia', NULL, '2026-05-16 18:04:59'),
-(2, 'Risky Pratama', '0822-2222-3333', 'tersedia', NULL, '2026-05-16 18:04:59'),
-(3, 'Doni Saputra', '081433334444', 'sibuk', NULL, '2026-05-16 18:04:59');
+(1, 'Ahmad Wijaya', '6282111112222', 'tersedia', NULL, '2026-05-16 18:04:59'),
+(2, 'Risky Pratama', '6282222223333', 'tersedia', NULL, '2026-05-16 18:04:59'),
+(3, 'Doni Saputra', '6281433334444', 'sibuk', NULL, '2026-05-16 18:04:59');
 
 -- --------------------------------------------------------
 
@@ -144,21 +144,21 @@ CREATE TABLE `notifikasi_wa` (
 --
 
 INSERT INTO `notifikasi_wa` (`id`, `reservasi_id`, `no_tujuan`, `pesan`, `jenis`, `status`, `sent_at`) VALUES
-(30, 19, '0895397129107', 'Reservasi online Anda berhasil dibuat dengan nomor antrean A001. Terima kasih telah memilih Akasia Motor.', 'Konfirmasi Reservasi', 'Terkirim', '2026-05-21 19:12:37'),
-(31, 19, '0895397129107', 'Nomor antrean A001 sedang dipanggil.', 'Antrian Dipanggil', 'Terkirim', '2026-05-21 19:13:11'),
-(32, 19, '0895397129107', 'Reservasi A001 telah diterima oleh Akasia Motor.', 'Konfirmasi Reservasi', 'Terkirim', '2026-05-21 19:13:27'),
-(33, 19, '0895397129107', 'Status reservasi A001 diperbarui menjadi Selesai.', 'Perubahan Status', 'Terkirim', '2026-05-21 19:14:55'),
-(34, 20, '0895397129107', 'Reservasi online Anda berhasil dibuat dengan nomor antrean A002. Terima kasih telah memilih Akasia Motor.', 'Konfirmasi Reservasi', 'Terkirim', '2026-05-21 19:18:20'),
-(35, 20, '0895397129107', 'Status reservasi A002 diperbarui menjadi Diproses.', 'Perubahan Status', 'Gagal', '2026-05-21 19:19:38'),
-(36, 20, '0895397129107', 'Reservasi A002 telah diterima oleh Akasia Motor.', 'Konfirmasi Reservasi', 'Terkirim', '2026-05-21 19:20:30'),
-(37, 20, '0895397129107', 'Status reservasi A002 diperbarui menjadi Dipanggil.', 'Perubahan Status', 'Terkirim', '2026-05-21 19:20:45'),
-(38, 24, '62895397129107', 'Halo Bapak/Ibu test,\n\nReservasi servis kendaraan Anda dengan nomor antrean A001\nuntuk tanggal 26 Mei 2026\ntelah berhasil dikonfirmasi oleh Bengkel Akasia Motor.\n\nSilakan datang ke bengkel sesuai tanggal reservasi dan lakukan konfirmasi kehadiran kepada admin bengkel.\n\nTerima kasih telah menggunakan layanan Bengkel Akasia Motor.', 'Konfirmasi Reservasi', 'Gagal', '2026-05-26 08:34:05'),
-(39, 24, '62895397129107', 'Halo Bapak/Ibu test,\n\nReservasi servis kendaraan Anda dengan nomor antrean A001\nuntuk tanggal 26 Mei 2026\ntelah berhasil dikonfirmasi oleh Bengkel Akasia Motor.\n\nSilakan datang ke bengkel sesuai tanggal reservasi dan lakukan konfirmasi kehadiran kepada admin bengkel.\n\nTerima kasih telah menggunakan layanan Bengkel Akasia Motor.', 'Konfirmasi Reservasi', 'Gagal', '2026-05-26 08:34:05'),
-(40, 25, '62895397129107', 'Halo Bapak/Ibu test,\n\nReservasi servis kendaraan Anda dengan nomor antrean A002\nuntuk tanggal 26 Mei 2026\ntelah berhasil dikonfirmasi oleh Bengkel Akasia Motor.\n\nSilakan datang ke bengkel sesuai tanggal reservasi dan lakukan konfirmasi kehadiran kepada admin bengkel.\n\nTerima kasih telah menggunakan layanan Bengkel Akasia Motor.', 'Konfirmasi Reservasi', 'Gagal', '2026-05-26 08:35:41'),
+(30, 19, '62895397129107', 'Reservasi online Anda berhasil dibuat dengan nomor antrean A001. Terima kasih telah memilih Akasia Motor.', 'Konfirmasi Reservasi', 'Terkirim', '2026-05-21 19:12:37'),
+(31, 19, '62895397129107', 'Nomor antrean A001 sedang dipanggil.', 'Antrian Dipanggil', 'Terkirim', '2026-05-21 19:13:11'),
+(32, 19, '62895397129107', 'Reservasi A001 telah diterima oleh Akasia Motor.', 'Konfirmasi Reservasi', 'Terkirim', '2026-05-21 19:13:27'),
+(33, 19, '62895397129107', 'Status reservasi A001 diperbarui menjadi Selesai.', 'Perubahan Status', 'Terkirim', '2026-05-21 19:14:55'),
+(34, 20, '62895397129107', 'Reservasi online Anda berhasil dibuat dengan nomor antrean A002. Terima kasih telah memilih Akasia Motor.', 'Konfirmasi Reservasi', 'Terkirim', '2026-05-21 19:18:20'),
+(35, 20, '62895397129107', 'Status reservasi A002 diperbarui menjadi Diproses.', 'Perubahan Status', 'Gagal', '2026-05-21 19:19:38'),
+(36, 20, '62895397129107', 'Reservasi A002 telah diterima oleh Akasia Motor.', 'Konfirmasi Reservasi', 'Terkirim', '2026-05-21 19:20:30'),
+(37, 20, '62895397129107', 'Status reservasi A002 diperbarui menjadi Dipanggil.', 'Perubahan Status', 'Terkirim', '2026-05-21 19:20:45'),
+(38, 24, '62895397129107', 'Halo Bapak/Ibu test,\n\nReservasi servis kendaraan Anda dengan nomor antrean A004\nuntuk tanggal 26 Mei 2026\ntelah berhasil dikonfirmasi oleh Bengkel Akasia Motor.\n\nSilakan datang ke bengkel sesuai tanggal reservasi dan lakukan konfirmasi kehadiran kepada admin bengkel.\n\nTerima kasih telah menggunakan layanan Bengkel Akasia Motor.', 'Konfirmasi Reservasi', 'Gagal', '2026-05-26 08:34:05'),
+(39, 24, '62895397129107', 'Halo Bapak/Ibu test,\n\nReservasi servis kendaraan Anda dengan nomor antrean A004\nuntuk tanggal 26 Mei 2026\ntelah berhasil dikonfirmasi oleh Bengkel Akasia Motor.\n\nSilakan datang ke bengkel sesuai tanggal reservasi dan lakukan konfirmasi kehadiran kepada admin bengkel.\n\nTerima kasih telah menggunakan layanan Bengkel Akasia Motor.', 'Konfirmasi Reservasi', 'Gagal', '2026-05-26 08:34:05'),
+(40, 25, '62895397129107', 'Halo Bapak/Ibu test,\n\nReservasi servis kendaraan Anda dengan nomor antrean A005\nuntuk tanggal 26 Mei 2026\ntelah berhasil dikonfirmasi oleh Bengkel Akasia Motor.\n\nSilakan datang ke bengkel sesuai tanggal reservasi dan lakukan konfirmasi kehadiran kepada admin bengkel.\n\nTerima kasih telah menggunakan layanan Bengkel Akasia Motor.', 'Konfirmasi Reservasi', 'Gagal', '2026-05-26 08:35:41'),
 (41, 25, '62895397129107', 'Halo Bapak/Ibu test,\n\nKehadiran Anda di Bengkel Akasia Motor telah berhasil dikonfirmasi.\nSaat ini kendaraan Anda sedang masuk dalam daftar antrean servis.\n\nSilakan menunggu hingga proses servis dimulai.\n\nTerima kasih.', 'Perubahan Status', 'Gagal', '2026-05-26 08:35:54'),
-(42, 24, '62895397129107', 'Halo Bapak/Ibu test,\n\nReservasi servis kendaraan dengan nomor antrean A001\nsementara dipindahkan ke status pending karena pelanggan belum hadir di bengkel.\n\nSilakan datang ke Bengkel Akasia Motor untuk melanjutkan antrean servis.\n\nTerima kasih.', 'Callback Pending', 'Gagal', '2026-05-26 08:35:57'),
-(43, 25, '62895397129107', 'Halo Bapak/Ibu test,\n\nKendaraan Anda dengan nomor antrean A002\nsaat ini sedang dalam proses servis di Bengkel Akasia Motor.\n\nMekanik yang menangani:\nDoni Saputra\n\nTerima kasih.', 'Perubahan Status', 'Gagal', '2026-05-26 08:36:11'),
-(44, 26, '62895397129107', 'Halo Bapak/Ibu test,\n\nReservasi servis kendaraan Anda dengan nomor antrean A003\nuntuk tanggal 26 Mei 2026\ntelah berhasil dikonfirmasi oleh Bengkel Akasia Motor.\n\nSilakan datang ke bengkel sesuai tanggal reservasi dan lakukan konfirmasi kehadiran kepada admin bengkel.\n\nTerima kasih telah menggunakan layanan Bengkel Akasia Motor.', 'Konfirmasi Reservasi', 'Gagal', '2026-05-26 09:19:34');
+(42, 24, '62895397129107', 'Halo Bapak/Ibu test,\n\nReservasi servis kendaraan dengan nomor antrean A004\nsementara dipindahkan ke status pending karena pelanggan belum hadir di bengkel.\n\nSilakan datang ke Bengkel Akasia Motor untuk melanjutkan antrean servis.\n\nTerima kasih.', 'Callback Pending', 'Gagal', '2026-05-26 08:35:57'),
+(43, 25, '62895397129107', 'Halo Bapak/Ibu test,\n\nKendaraan Anda dengan nomor antrean A005\nsaat ini sedang dalam proses servis di Bengkel Akasia Motor.\n\nMekanik yang menangani:\nDoni Saputra\n\nTerima kasih.', 'Perubahan Status', 'Gagal', '2026-05-26 08:36:11'),
+(44, 26, '62895397129107', 'Halo Bapak/Ibu test,\n\nReservasi servis kendaraan Anda dengan nomor antrean A006\nuntuk tanggal 26 Mei 2026\ntelah berhasil dikonfirmasi oleh Bengkel Akasia Motor.\n\nSilakan datang ke bengkel sesuai tanggal reservasi dan lakukan konfirmasi kehadiran kepada admin bengkel.\n\nTerima kasih telah menggunakan layanan Bengkel Akasia Motor.', 'Konfirmasi Reservasi', 'Gagal', '2026-05-26 09:19:34');
 
 -- --------------------------------------------------------
 
@@ -182,7 +182,7 @@ CREATE TABLE `pengaturan` (
 --
 
 INSERT INTO `pengaturan` (`id`, `nama_bengkel`, `alamat`, `no_whatsapp`, `jam_buka`, `jam_tutup`, `hari_operasional`, `updated_at`) VALUES
-(1, 'Akasia Motor', 'Jl. Merdeka No. 123, Semarang', '081200000000', '08:00:00', '17:00:00', 'Senin - Sabtu', '2026-05-19 18:38:52');
+(1, 'Akasia Motor', 'Jl. Merdeka No. 123, Semarang', '6281200000000', '08:00:00', '17:00:00', 'Senin - Sabtu', '2026-05-19 18:38:52');
 
 -- --------------------------------------------------------
 
@@ -227,9 +227,9 @@ CREATE TABLE `reservasi` (
 INSERT INTO `reservasi` (`id`, `no_antrian`, `user_id`, `mekanik_id`, `jenis_layanan_id`, `jenis_reservasi`, `no_plat`, `jenis_kendaraan`, `tipe_model`, `tahun`, `warna`, `keluhan`, `kehadiran`, `status`, `catatan_mekanik`, `hasil_servis`, `biaya_jasa`, `total_biaya`, `catatan_tambahan`, `tanggal_servis`, `waktu_konfirmasi`, `waktu_hadir`, `waktu_pending`, `waktu_mulai_servis`, `waktu_selesai`, `created_at`, `updated_at`) VALUES
 (19, 'A001', 13, NULL, 2, 'Online', '43', 'test', 'test', '2023', 'test', 'test', 'Hadir', 'selesai', 'test', NULL, 0.00, 0.00, NULL, '2026-05-22', '2026-05-22 02:12:35', '2026-05-26 14:54:58', NULL, '2026-05-26 14:54:58', '2026-05-26 14:54:58', '2026-05-21 19:12:35', '2026-05-26 07:54:59'),
 (20, 'A002', 13, 1, 1, 'Online', '43', 'test', 'test', '2003', 'test', 'test', 'Belum Hadir', 'menunggu_konfirmasi', 'testtest', NULL, 0.00, 0.00, NULL, '2026-05-22', NULL, NULL, NULL, NULL, NULL, '2026-05-21 19:18:12', '2026-05-26 07:54:58'),
-(24, 'A001', 10, NULL, 1, 'Walk-in', '43', 'test', 'test', '2023', 'tet', 'tst', 'Belum Hadir', 'pending', NULL, NULL, 0.00, 0.00, NULL, '2026-05-26', '2026-05-26 15:34:05', NULL, '2026-05-26 15:35:56', NULL, NULL, '2026-05-26 08:33:45', '2026-05-26 08:35:56'),
-(25, 'A002', 10, 3, 1, 'Walk-in', '4343', 'test', 'test', '2023', 'tst', 'tset', 'Hadir', 'diproses', NULL, NULL, 0.00, 0.00, NULL, '2026-05-26', '2026-05-26 15:35:39', '2026-05-26 15:35:53', NULL, '2026-05-26 15:36:10', NULL, '2026-05-26 08:35:36', '2026-05-26 08:36:10'),
-(26, 'A003', 10, NULL, 1, 'Walk-in', '3232', 'tet', 'test', '2023', 'tes', 'test', 'Belum Hadir', 'dikonfirmasi', NULL, NULL, 0.00, 0.00, NULL, '2026-05-26', '2026-05-26 16:19:33', NULL, NULL, NULL, NULL, '2026-05-26 09:19:24', '2026-05-26 09:19:33');
+(24, 'A004', 10, NULL, 1, 'Walk-in', '43', 'test', 'test', '2023', 'tet', 'tst', 'Belum Hadir', 'pending', NULL, NULL, 0.00, 0.00, NULL, '2026-05-26', '2026-05-26 15:34:05', NULL, '2026-05-26 15:35:56', NULL, NULL, '2026-05-26 08:33:45', '2026-05-26 08:35:56'),
+(25, 'A005', 10, 3, 1, 'Walk-in', '4343', 'test', 'test', '2023', 'tst', 'tset', 'Hadir', 'diproses', NULL, NULL, 0.00, 0.00, NULL, '2026-05-26', '2026-05-26 15:35:39', '2026-05-26 15:35:53', NULL, '2026-05-26 15:36:10', NULL, '2026-05-26 08:35:36', '2026-05-26 08:36:10'),
+(26, 'A006', 10, NULL, 1, 'Walk-in', '3232', 'tet', 'test', '2023', 'tes', 'test', 'Belum Hadir', 'dikonfirmasi', NULL, NULL, 0.00, 0.00, NULL, '2026-05-26', '2026-05-26 16:19:33', NULL, NULL, NULL, NULL, '2026-05-26 09:19:24', '2026-05-26 09:19:33');
 
 -- --------------------------------------------------------
 
@@ -324,18 +324,18 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `nama`, `email`, `password`, `no_whatsapp`, `alamat`, `role`, `created_at`) VALUES
 (1, 'Admin', 'admin@akasiamotor.com', '$2y$10$Vf0MOID8XqtaDo0B6jWzBOIXNjnNrfa9y2tJ6YK9B6jzv/jqFESAO', NULL, NULL, 'admin', '2026-05-16 18:04:59'),
-(2, 'Budi Santoso', 'budi@gmail.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', '0812-3456-7890', 'Jl. Merdeka No. 123, Semarang', 'pelanggan', '2026-05-16 18:04:59'),
-(3, 'Andi Wijaya', 'andi@gmail.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', '0821-1111-2222', 'Jl. Sudirman No. 45, Semarang', 'pelanggan', '2026-05-16 18:04:59'),
-(4, 'Siti Aminah', 'siti@gmail.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', '0813-4444-5555', 'Jl. Pahlawan No. 12, Semarang', 'pelanggan', '2026-05-16 18:04:59'),
-(5, 'Dewi Lestari', 'dewi@gmail.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', '0813-2222-3333', 'Jl. Diponegoro No. 78, Semarang', 'pelanggan', '2026-05-16 18:04:59'),
-(6, 'Rudi Hartono', 'rudi@gmail.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', '0821-1111-1111', 'Jl. Ahmad Yani No. 5, Semarang', 'pelanggan', '2026-05-16 18:04:59'),
-(7, 'testtest', 'test.0895397129107@walkin.akasia.local', '$2y$10$bN6yEExU/ox84ieBXO4ZVufogcZXo9NMQuON/zyYPW6jscSERmsYC', '0895397129107', 'test', 'pelanggan', '2026-05-17 00:02:03'),
-(8, 'testtest', 'test.08953971291072@walkin.akasia.local', '$2y$10$TmqxaDKtCsMZTLPhaa6om.T8CDJHGu64d6GFD7fRP./rI7ISw.vMS', '0895397129107', 'test', 'pelanggan', '2026-05-18 05:56:56'),
-(9, 'teste', 'teste.0895397129107@walkin.akasia.local', '$2y$10$49B8jXv1NcZ4rylPKun/ruynxCv6Y..nwHNqpt9LaDr/2cU00LJqq', '0895397129107', 'tet', 'pelanggan', '2026-05-19 18:51:21'),
-(10, 'test', 'test.08953971291073@walkin.akasia.local', '$2y$10$/IjbiFmfipY/Cs1bzzm9Y.ZiKA/nLLInZuUChj1jouozt1FB97s6G', '0895397129107', 'test', 'pelanggan', '2026-05-19 19:59:18'),
-(11, 'test', 'test@gmail.com', '$2y$10$QLwbvmNVs7n8aSnlf7q8VOT.Se2OJhjxqb4LLiMN8aTvJy69AIAne', '089512121212', 'JL Pelabuhan Ketapang', 'pelanggan', '2026-05-20 15:31:18'),
-(12, 'testtesttest', 'testtest@gmail.com', '$2y$10$3D3XQdRk3JxQTWDXLfdVQOjaHQU0fhwfk2zCZRH3p5A59b2E3vXAW', '089323232332', 'test', 'pelanggan', '2026-05-20 15:32:02'),
-(13, 'andriano', 'andrianow817@gmail.com', '$2y$10$Ea9lFlQ04N1uYevHVVn3eeBwLwTuGd5mYeh/UMQkGoTtm7SAgOtDu', '0895397129107', 'JL pelabuhan', 'pelanggan', '2026-05-21 19:12:08');
+(2, 'Budi Santoso', 'budi@gmail.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', '6281234567890', 'Jl. Merdeka No. 123, Semarang', 'pelanggan', '2026-05-16 18:04:59'),
+(3, 'Andi Wijaya', 'andi@gmail.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', '6282111112222', 'Jl. Sudirman No. 45, Semarang', 'pelanggan', '2026-05-16 18:04:59'),
+(4, 'Siti Aminah', 'siti@gmail.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', '6281344445555', 'Jl. Pahlawan No. 12, Semarang', 'pelanggan', '2026-05-16 18:04:59'),
+(5, 'Dewi Lestari', 'dewi@gmail.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', '6281322223333', 'Jl. Diponegoro No. 78, Semarang', 'pelanggan', '2026-05-16 18:04:59'),
+(6, 'Rudi Hartono', 'rudi@gmail.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', '6282111111111', 'Jl. Ahmad Yani No. 5, Semarang', 'pelanggan', '2026-05-16 18:04:59'),
+(7, 'testtest', 'test.0895397129107@walkin.akasia.local', '$2y$10$bN6yEExU/ox84ieBXO4ZVufogcZXo9NMQuON/zyYPW6jscSERmsYC', '62895397129107', 'test', 'pelanggan', '2026-05-17 00:02:03'),
+(8, 'testtest', 'test.08953971291072@walkin.akasia.local', '$2y$10$TmqxaDKtCsMZTLPhaa6om.T8CDJHGu64d6GFD7fRP./rI7ISw.vMS', '62895397129107', 'test', 'pelanggan', '2026-05-18 05:56:56'),
+(9, 'teste', 'teste.0895397129107@walkin.akasia.local', '$2y$10$49B8jXv1NcZ4rylPKun/ruynxCv6Y..nwHNqpt9LaDr/2cU00LJqq', '62895397129107', 'tet', 'pelanggan', '2026-05-19 18:51:21'),
+(10, 'test', 'test.08953971291073@walkin.akasia.local', '$2y$10$/IjbiFmfipY/Cs1bzzm9Y.ZiKA/nLLInZuUChj1jouozt1FB97s6G', '62895397129107', 'test', 'pelanggan', '2026-05-19 19:59:18'),
+(11, 'test', 'test@gmail.com', '$2y$10$QLwbvmNVs7n8aSnlf7q8VOT.Se2OJhjxqb4LLiMN8aTvJy69AIAne', '6289512121212', 'JL Pelabuhan Ketapang', 'pelanggan', '2026-05-20 15:31:18'),
+(12, 'testtesttest', 'testtest@gmail.com', '$2y$10$3D3XQdRk3JxQTWDXLfdVQOjaHQU0fhwfk2zCZRH3p5A59b2E3vXAW', '6289323232332', 'test', 'pelanggan', '2026-05-20 15:32:02'),
+(13, 'andriano', 'andrianow817@gmail.com', '$2y$10$Ea9lFlQ04N1uYevHVVn3eeBwLwTuGd5mYeh/UMQkGoTtm7SAgOtDu', '62895397129107', 'JL pelabuhan', 'pelanggan', '2026-05-21 19:12:08');
 
 --
 -- Indexes for dumped tables
@@ -428,49 +428,49 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `antrean_harian`
 --
 ALTER TABLE `antrean_harian`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `jenis_layanan`
 --
 ALTER TABLE `jenis_layanan`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `kegiatan_servis`
 --
 ALTER TABLE `kegiatan_servis`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `mekanik`
 --
 ALTER TABLE `mekanik`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `notifikasi_wa`
 --
 ALTER TABLE `notifikasi_wa`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `pengaturan`
 --
 ALTER TABLE `pengaturan`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `reservasi`
 --
 ALTER TABLE `reservasi`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `reservasi_kegiatan`
 --
 ALTER TABLE `reservasi_kegiatan`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=53;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `reservasi_sparepart`
@@ -482,13 +482,13 @@ ALTER TABLE `reservasi_sparepart`
 -- AUTO_INCREMENT for table `template_whatsapp`
 --
 ALTER TABLE `template_whatsapp`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- Constraints for dumped tables
